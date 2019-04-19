@@ -16,14 +16,15 @@
 
   - name: install webserver() on redhat7
     yum:
-     name: httpd
+     name: httpd 
      state: present
-    when: ansible_os_family== "Redhat"
+    when: ansible_os_family== "RedHat"
 
-  - name: start the service 
+  - name: start the service
     service:
      name: httpd
      state: started
-    when: ansible_os_family== "Redhat"
-
+    when: ansible_os_family== "RedHat"
     
+
+

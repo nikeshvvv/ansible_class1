@@ -5,6 +5,12 @@
 172.31.39.6
 172.31.44.94
 
+[webservers]
+172.31.32.104
+172.31.39.6
+172.31.44.94
+
+
 [ubuntuhosts:vars]
 ansible_python_interpreter=/usr/bin/python3
 
